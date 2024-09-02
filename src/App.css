@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #F5F7FA;
+}
+
+#sidebar .icon:hover svg path {
+  fill: #FFAE00;
+}
+
+
+#sidebar .icon:last-of-type:hover svg path {
+  stroke: #FFAE00;
+  fill: transparent;
+}
+
+.backdrop_shadow {
+  box-shadow: 0px 1px 3px 0px #00000033;
+}
+
+
+.even\:bg-gray-100:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: transparent !important;
+}
+
+.css-adnr9q-MuiBarElement-root {
+
+  fill: #FFAE00 !important;
+
+}
+
+.css-1qdzy9k-MuiBarElement-root {
+  fill: #F94144 !important;
+}
+
+.delete_icon svg {
+  width: 60px;
+  height: 60px;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
